@@ -608,7 +608,7 @@
   
 @font-face {
     font-family: "catcheye-webfont";
-    src: url('../fonts/coolvetica_rg-webfont.woff2') format('woff2'),
+    src: url('../fonts/Roboto-Regular.ttf') format('woff2'),
          url('../fonts/coolvetica_rg-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
@@ -618,7 +618,27 @@
     -moz-osx-font-smoothing: grayscale;
   }
   
+
+  .toggle {
+    display: block;
+    height: 0.6em;
+    width: 0.6em;
+    font-size: 80px;
+    text-align: center;
+    line-height: 0.5em;
+    margin: 0;
+    padding: 0;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    font-family: "catcheye-webfont";
+    font-weight: lighter;
+    color: #ffffff;
+  }
   
+  .toggle::before {
+    display: block;
+    content: '+';
+  }
 body {
     background-color: var(--main-bg-color);
     color: var(--main-text-color);
@@ -628,7 +648,6 @@ body {
 .logo {
     display: flex;
     justify-content: center;
-    
   }
 
 
@@ -636,7 +655,7 @@ nav {
   display: flex; 
   justify-content: space-between; 
   align-items: center; 
-  background-color: #333; 
+  background-color: none; 
   padding: 10px; 
 } 
  
@@ -645,6 +664,7 @@ nav {
   font-weight: bold; 
   text-decoration: none; 
   font-size: 20px; 
+  text-align: center;
 } 
  
 .menu { 
@@ -656,7 +676,8 @@ nav {
 } 
  
 .menu li { 
-  margin-right: 15px; 
+  display: flex;
+  text-align: center;
 } 
  
 .menu li a { 
