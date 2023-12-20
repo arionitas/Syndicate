@@ -7,7 +7,7 @@
   html {
     height: 100%;
     overflow: hidden;
-    background: radial-gradient(ellipse at bottom, #1b2735 0%,#090a0f 100%);
+    background: radial-gradient(ellipse at bottom, #225733 0%,#000000 100%);
 }
 
 #title {
@@ -15,9 +15,9 @@
     top: 50%;
     left: 0;
     right: 0;
-    color: #fff;
+    color: #44ff00;
     text-align: center;
-    font-family: Lato;
+    font-family: "catcheye-webfont";
     font-weight: 300;
     font-size: 50px;
     letter-spacing: 10px;
