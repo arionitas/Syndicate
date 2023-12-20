@@ -691,77 +691,45 @@ nav {
   color: #fff; 
 } 
  
-@media (max-width: 430px) { 
-
-    #stars:after {
-
-        position: absolute
-        
-        }
-        
-        
-        #stars2 {
-        
-        position: absolute
-        
-        }
-        
-        
-        
-        #stars2:after {
-        
-        position: absolute
-        
-        }
-        
-        #stars3 {
-        
-        position: absolute
-        
-        }
-        
-        
-        #stars3:after {
-        
-        position: absolute
-        
-        }
-        
-        
-
-
+@media (max-width: 430px) {
     html {
-        position: absolute;
+      position: static;
     }
     .logo {
-        display: flex;
-        justify-content: center;
+      display: block;
+      text-align: center;
     }
-
+    .menu {
+      display: block;
+    }
+    .menu li {
+      display: block;
+    }
+    .menu li a {
+      display: block;
+      padding: 8px;
+    }
+    .toggle {
+      display: none;
+    }
+    .show {
+      display: none;
+    }
     #stars {
-        position: absolute;
+      position: static;
     }
-
     #title {
-        display: flex;
-        justify-content: center;
+      position: static;
+      text-align: center;
     }
-    
-  .menu { 
-    display: none; 
-  } 
- 
-  .toggle { 
-    display: block; 
-  } 
- 
-  .toggle i { 
-    font-size: 24px; 
-  } 
- 
-  .show { 
-    display: block; 
-  } 
-}
-
-
+    #stars:after,
+    #stars2:after,
+    #stars3:after {
+      content: "";
+      position: static;
+    }
+    #stars2,
+    #stars3 {
+      position: static;
+    }
+  }
