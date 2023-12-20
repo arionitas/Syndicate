@@ -691,7 +691,21 @@ nav {
   color: #fff; 
 } 
  
-@media (max-width: 768px) { 
+@media (max-width: 800px) { 
+
+    .logo {
+        display: flex;
+        justify-content: center;
+    }
+
+    #stars {
+        position: absolute;
+    }
+
+    #title {
+        position: absolute;
+    }
+    
   .menu { 
     display: none; 
   } 
@@ -709,17 +723,4 @@ nav {
   } 
 }
 
-
-
-@media (max-width: 850px) {
-    body {
-
-    }
-    h1 {
-        font-size: 40px;
-        padding: 5px; 
-        margin: 5px;
-        
-    }
-}
 
