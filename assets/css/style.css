@@ -218,7 +218,7 @@
 #stars:after {
     content: '';
     position: absolute;
-    top: 2000px;
+    top: 800px;
     width: 1px;
     height: 1px;
     background: transparent;
@@ -462,7 +462,7 @@
 #stars2:after {
     content: '';
     position: absolute;
-    top: 2000px;
+    top: 800px;
     width: 2px;
     height: 2px;
     background: #000000;
@@ -555,7 +555,7 @@
 #stars3:after {
     content: '';
     position: absolute;
-    top: 2000px;
+    top: 800px;
     width: 3px;
     height: 3px;
     background: transparent;
@@ -691,8 +691,48 @@ nav {
   color: #fff; 
 } 
  
-@media (max-width: 800px) { 
+@media (max-width: 1300px) { 
 
+    #stars:after {
+
+        position: absolute
+        
+        }
+        
+        
+        #stars2 {
+        
+        position: absolute
+        
+        }
+        
+        
+        
+        #stars2:after {
+        
+        position: absolute
+        
+        }
+        
+        #stars3 {
+        
+        position: absolute
+        
+        }
+        
+        
+        #stars3:after {
+        
+        position: absolute
+        
+        }
+        
+        
+
+
+    html {
+        position: absolute;
+    }
     .logo {
         display: flex;
         justify-content: center;
