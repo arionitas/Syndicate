@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  :root {
+    --main-bg-color: #000000;
+    --main-card-color: #ffdfe3;
+    --main-text-color: #2E2E3A;
+    --main-nav-color: #ffd2d9;
+    --surface-color: #fff;
+    --curve: 40;
+  }
+  
+  @font-face {
+    font-family: "catcheye-webfont";
+    src: url('../fonts/coolvetica_rg-webfont.woff2') format('woff2'),
+         url('../fonts/coolvetica_rg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  
+  body {
+    background-color: var(--main-bg-color);
+    color: var(--main-text-color);
+    font-family: "catcheye-webfont";
+  }
+  
+  
+
+
+
+  @media (max-width: 850px) {
+    body {
+        
+    }
+    h1 {
+        font-size: 40px;
+        padding: 5px; 
+        margin: 5px;
+        
+    }
+}
+
