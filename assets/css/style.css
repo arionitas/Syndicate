@@ -631,7 +631,7 @@ body {
     
   }
 
-  
+
 nav { 
   display: flex; 
   justify-content: space-between; 
@@ -641,7 +641,7 @@ nav {
 } 
  
 .logo a { 
-  color: #fff; 
+  color: tran; 
   font-weight: bold; 
   text-decoration: none; 
   font-size: 20px; 
@@ -652,6 +652,7 @@ nav {
   justify-content: center;
   list-style-type: none; 
   padding: 10px;
+  font-family: "catch-eye";
 } 
  
 .menu li { 
