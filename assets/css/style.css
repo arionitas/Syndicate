@@ -703,7 +703,8 @@ nav {
     }
 
     #title {
-        position: absolute;
+        display: flex;
+        justify-content: center;
     }
     
   .menu { 
