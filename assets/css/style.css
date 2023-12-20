@@ -465,7 +465,7 @@
     top: 2000px;
     width: 2px;
     height: 2px;
-    background: transparent;
+    background: #000000;
     box-shadow: 1448px 320px #fff, 1775px 1663px #fff, 332px 1364px #fff,
     878px 340px #fff, 569px 1832px #fff, 1422px 1684px #fff, 1946px 1907px #fff,
     121px 979px #fff, 1044px 1069px #fff, 463px 381px #fff, 423px 112px #fff,
@@ -599,10 +599,9 @@
   
   
 :root {
-    --main-bg-color: #000000;
+    --main-bg-color: transparent;
     --main-card-color: #ffdfe3;
     --main-text-color: #2E2E3A;
-    --main-nav-color: #ffd2d9;
     --surface-color: #fff;
     --curve: 40;
   }
@@ -631,6 +630,62 @@ body {
     justify-content: center;
     
   }
+
+  
+nav { 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  background-color: #333; 
+  padding: 10px; 
+} 
+ 
+.logo a { 
+  color: #fff; 
+  font-weight: bold; 
+  text-decoration: none; 
+  font-size: 20px; 
+} 
+ 
+.menu { 
+  display: flex; 
+  justify-content: center;
+  list-style-type: none; 
+  padding: 10px;
+} 
+ 
+.menu li { 
+  margin-right: 20px; 
+} 
+ 
+.menu li a { 
+  color: #fff; 
+  text-decoration: none; 
+} 
+ 
+.toggle { 
+  display: none; 
+  cursor: pointer; 
+  color: #fff; 
+} 
+ 
+@media (max-width: 768px) { 
+  .menu { 
+    display: none; 
+  } 
+ 
+  .toggle { 
+    display: block; 
+  } 
+ 
+  .toggle i { 
+    font-size: 24px; 
+  } 
+ 
+  .show { 
+    display: block; 
+  } 
+}
 
 
 
