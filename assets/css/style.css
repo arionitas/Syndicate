@@ -690,46 +690,112 @@ nav {
   cursor: pointer; 
   color: #fff; 
 } 
- 
-@media (max-width: 430px) {
-    html {
-      position: static;
-    }
-    .logo {
-      display: block;
-      text-align: center;
-    }
-    .menu {
-      display: block;
-    }
-    .menu li {
-      display: block;
-    }
-    .menu li a {
-      display: block;
-      padding: 8px;
-    }
-    .toggle {
-      display: none;
-    }
-    .show {
-      display: none;
-    }
-    #stars {
-      position: static;
-    }
-    #title {
-      position: static;
-      text-align: center;
-    }
-    #stars:after,
-    #stars2:after,
-    #stars3:after {
-      content: "";
-      position: static;
-    }
-    #stars2,
-    #stars3 {
-      position: static;
-    }
+
+@media (min-width: 414px) {
+  .logo {
+    display: flex;
+    justify-content: center;
   }
+  #stars {
+    position: relative;
+  }
+  #title {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (min-width: 768px) {
+  .logo {
+    display: flex;
+    justify-content: center;
+  }
+  #stars {
+    position: relative;
+  }
+  #title {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (min-width: 992px) {
+  .logo {
+    display: flex;
+    justify-content: center;
+  }
+  #stars {
+    position: relative;
+  }
+  #title {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (min-width: 475px) {
+  .logo {
+    display: flex;
+  }
+  #stars {
+    position: relative;
+  }
+  #title {
+    display: block;
+  }
+}
+@media (min-width: 768px) {
+  .logo {
+    display: block;
+  }
+  #stars {
+    position: relative;
+  }
+  #title {
+    display: block;
+  }
+}
+@media (min-width: 992px) {
+  .logo {
+    display: block;
+  }
+  #stars {
+    position: relative;
+  }
+  #title {
+    display: block;
+  }
+}
+@media (min-width: 1200px) {
+  .logo {
+    display: block;
+  }
+  #stars {
+    position: relative;
+  }
+  #title {
+    display: block;
+  }
+}
+@media (min-width: 1600px) {
+  .logo {
+    display: block;
+  }
+  #stars {
+    position: relative;
+  }
+  #title {
+    display: block;
+  }
+}
+@media (min-width: 414px) {
+  .logo {
+    display: flex;
+    justify-content: center;
+  }
+  #stars {
+    position: relative;
+  }
+  #title {
+    display: flex;
+    justify-content: center;
+  }
+}
+
