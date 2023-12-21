@@ -5,7 +5,7 @@
 }
 
 html {
-  height: 150%;
+  height: 100%;
   overflow: hidden;
   background: radial-gradient(ellipse at bottom, #225733 0%,#000000 100%);
 }
@@ -13,7 +13,7 @@ html {
 #title {
   display: flex;
   justify-content: center;
-  top: 50%;
+  top:0%;
   left: 0;
   right: 0;
   color: #44ff00;
@@ -480,28 +480,11 @@ body {
 }
 
 
-.toggle {
-  display: block;
-  height: 0.6em;
-  width: 0.6em;
-  font-size: 80px;
-  text-align: center;
-  line-height: 0.5em;
-  margin: 0;
-  padding: 0;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  font-family: "catcheye-webfont";
-  font-weight: lighter;
-  color: #ffffff;
-}
-
 .collapsible::before {
   display: block;
   content: '+';
   color: greenyellow;
 }
-
 
 
 /* Style the button that is used to open and close the collapsible content */
@@ -514,12 +497,11 @@ body {
   text-align: left;
   outline: none;
   font-size: 80px;
+  font-family: "catcheye-webfont";
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .collapsible:hover {
-  background-color: transparent;
-}
+
 
 /* Style the collapsible content. Note: hidden by default */
 .content {
@@ -528,6 +510,7 @@ body {
   overflow: hidden;
   background-color: transparent;
   color: greenyellow;
+  transition: 0.5s ease;
 }
 
 @media screen and (max-width: 768px) {
@@ -544,9 +527,8 @@ body {
     display: none;
   }
 
-  #title {
-    display: flex;
-    justify-content: center;
+  html {
+    overflow: hidden;
   }
 }
 
@@ -564,10 +546,10 @@ body {
     display: block;
   }
 
-  #title {
-    display: flex;
-    justify-content: center;
+  html {
+    overflow: hidden;
   }
+
 }
 
 @media screen and (min-width: 1024px) {
@@ -575,6 +557,7 @@ body {
     display: flex;
     justify-content: center;
   }
+  
 
   .menu {
     display: block;
@@ -584,10 +567,10 @@ body {
     display: block;
   }
 
-  #title {
-    display: flex;
-    justify-content: center;
+  html {
+    overflow: hidden;
   }
+
 }
 
 @media screen and (max-width: 430) {
@@ -604,8 +587,8 @@ body {
     display: block;
   }
 
-  #title {
-    display: flex;
-    justify-content: center;
+  html {
+    overflow: hidden;
   }
+
 }
