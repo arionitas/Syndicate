@@ -5,7 +5,7 @@
 }
 
 html {
-  height: 100%;
+  height: 150%;
   overflow: hidden;
   background: radial-gradient(ellipse at bottom, #225733 0%,#000000 100%);
 }
@@ -22,7 +22,7 @@ html {
   font-weight: 300;
   font-size: 50px;
   letter-spacing: 10px;
-  margin-top: -60px;
+  margin-top: 50px;
   padding-left: 10px;
 }
 
@@ -684,6 +684,7 @@ body {
 @media screen and (max-width: 768px) {
   .logo {
     display: flex;
+    justify-content: center;
   }
 
   .menu {
@@ -696,12 +697,14 @@ body {
 
   #title {
     display: flex;
+    justify-content: center;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .logo {
     display: flex;
+    justify-content: center;
   }
 
   .menu {
@@ -714,12 +717,14 @@ body {
 
   #title {
     display: flex;
+    justify-content: center;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .logo {
     display: flex;
+    justify-content: center;
   }
 
   .menu {
@@ -732,5 +737,26 @@ body {
 
   #title {
     display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 430) {
+  .logo {
+    display: flex;
+    justify-content: center;
+  }
+
+  .menu {
+    display: block;
+  }
+
+  .stars {
+    display: block;
+  }
+
+  #title {
+    display: flex;
+    justify-content: center;
   }
 }
