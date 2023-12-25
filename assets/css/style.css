@@ -54,10 +54,11 @@ body {
 
 /* Style the button that is used to open and close the collapsible content */
 .collapsible {
-  background-color: transparent;
+  background-color:transparent;
   cursor: pointer;
   padding: 18px;
-  width: 100%;
+  width: 0%;
+  margin: auto;
   border: none;
   text-align: left;
   outline: none;
@@ -70,19 +71,19 @@ body {
 
 /* Style the collapsible content. Note: hidden by default */
 .content {
-  padding: 0 20px;
-  display: none;
-  overflow: auto;
+  padding: none;
+  overflow: hidden;
+  margin: auto;
   background-color: transparent;
   color: greenyellow;
   font-family: "catcheye-webfont";
+  position: relative;
   
 }
 .content a {
   text-decoration: none;
   font-family: "catcheye-webfont";
   color: greenyellow;
-  padding: 0% 1%;
 }
 .content a:hover {
   text-decoration: none;
@@ -92,7 +93,8 @@ body {
 
 .content li {
   list-style: none;
-  
+  display: flex;
+  justify-content: center;
 }
 
 .gallery_1 * {
