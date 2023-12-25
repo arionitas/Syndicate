@@ -22,17 +22,4 @@ for (i = 0; i < coll.length; i++) {
   });
 }
 
-$(document).ready(function() {
-
-  $(`[unique-script-id="w-w-dm-id"] .btn-box`).click(function() {
-    $(this).parent().children(".overlay").show();
-
-  });
-
-
-  $(`[unique-script-id="w-w-dm-id"] .close`).click(function() {
-    $(".overlay").hide();
-  });
-});
-
 
