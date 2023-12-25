@@ -70,12 +70,29 @@ body {
 
 /* Style the collapsible content. Note: hidden by default */
 .content {
-  padding: 0 18px;
+  padding: 0 20px;
   display: none;
   overflow: hidden;
   background-color: transparent;
   color: greenyellow;
-  transition: 0.5s ease;
+  font-family: "catcheye-webfont";
+  
+}
+.content a {
+  text-decoration: none;
+  font-family: "catcheye-webfont";
+  color: greenyellow;
+  padding: 0% 1%;
+}
+.content a:hover {
+  text-decoration: none;
+  font-family: "catcheye-webfont";
+  color: rgb(247, 255, 235);
+}
+
+.content li {
+  list-style: none;
+  
 }
 
 @media screen and (max-width: 768px) {
