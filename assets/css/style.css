@@ -33,10 +33,38 @@ html {
 body {
   background-color: var(--main-bg-color);
   color: var(--main-text-color);
-  font-family: "catcheye-webfont";
-  
+  font-family: "catcheye-webfont"; 
 }
 
+ h1 {
+  font-family: "catcheye-webfont";
+  color: rgb(255, 255, 255);
+  padding: 10%;
+  font-size: 1.5em;
+  font-weight: normal;
+  font-style: normal;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+}
+
+ h2 {
+  font-family: "catcheye-webfont";
+  color: rgb(255, 255, 255);
+  font-size: 1em;
+  font-weight: normal;
+  font-style: normal;
+  margin-top: -130px;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+}
 .logo {
   display: flex;
   justify-content: center;
