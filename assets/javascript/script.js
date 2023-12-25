@@ -4,8 +4,11 @@ var i;
 const navLinkEls = document.querySelectorAll(".nav__link");
 const windowPathname = window.location.pathname;
 
+
 navLinkEls.forEach(navLinkEl => {
-  if (navLinkEl.href.includes(windowPathname)) {
+  const navLinkPathname = new URL(navLinkEl.href).pathname;
+
+  if (windowPathname === navLinkPathname) {
     navLinkEl.classList.add('active');
   }
 });

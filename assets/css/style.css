@@ -6,7 +6,7 @@
 
 html {
   height: 100%;
-  overflow: auto;
+  overflow: scroll;
   background: radial-gradient(ellipse at bottom, #225733 0%,#000000 100%);
 }
 
@@ -72,7 +72,7 @@ body {
 .content {
   padding: 0 20px;
   display: none;
-  overflow: hidden;
+  overflow: scroll;
   background-color: transparent;
   color: greenyellow;
   font-family: "catcheye-webfont";
@@ -605,6 +605,7 @@ body {
 }
 
 @media (max-width: 768px) {
+  
   .gallery_1 .project.project5 {
     top: 520px;
     width: 100%;
@@ -612,7 +613,9 @@ body {
     right: auto;
     bottom: auto;
     height: 200px;
-  }
+
+}
+ 
 
   .gallery_1 .responsive-container-block.imgContainer {
     height: 930px;
@@ -660,6 +663,7 @@ body {
   .gallery_1 .overlay-inner {
     width: 90%;
   }
+}
 
 @media (max-width: 500px) {
   .gallery_1 .responsive-container-block.imgContainer {
@@ -725,7 +729,7 @@ body {
 
 
   html {
-    overflow: auto;
+    overflow: scroll;
     width: 100vw;
     height: 100vh;
     position: fixed;
@@ -743,7 +747,7 @@ body {
   }
 
   html {
-    overflow: auto;
+    overflow: scroll;
   }
 
 }
@@ -760,7 +764,7 @@ body {
   }
 
   html {
-    overflow: auto;
+    overflow:scroll;
   }
 
 }
@@ -777,7 +781,7 @@ body {
 
 
   html {
-    overflow: auto;
+    overflow: scroll;
   }
 
 }
