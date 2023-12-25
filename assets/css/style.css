@@ -10,8 +10,6 @@ html {
   background: radial-gradient(ellipse at bottom, #225733 0%,#000000 100%);
 }
 
-
-
 :root {
   --main-bg-color: transparent;
   --main-card-color: #ffdfe3;
@@ -90,9 +88,6 @@ body {
     display: none;
   }
 
-  .stars {
-    display: none;
-  }
 
   html {
     overflow: hidden;
@@ -109,10 +104,6 @@ body {
   }
 
   .menu {
-    display: block;
-  }
-
-  .stars {
     display: block;
   }
 
@@ -133,10 +124,6 @@ body {
     display: block;
   }
 
-  .stars {
-    display: block;
-  }
-
   html {
     overflow: hidden;
   }
@@ -153,9 +140,6 @@ body {
     display: block;
   }
 
-  .stars {
-    display: block;
-  }
 
   html {
     overflow: hidden;
