@@ -580,8 +580,8 @@ body {
     justify-content: center;
   }
 
-  .menu {
-    display: none;
+  .content {
+    display: block;
   }
 
 
@@ -599,7 +599,7 @@ body {
     justify-content: center;
   }
 
-  .menu {
+  .content {
     display: block;
   }
 
@@ -619,7 +619,7 @@ body {
   }
   
 
-  .menu {
+  .content {
     display: block;
   }
 
@@ -632,12 +632,17 @@ body {
 }
 
 @media screen and (max-width: 430) {
+
+  h1, h2 {
+    display: abs;
+
+  }
   .logo {
     display: flex;
     justify-content: center;
   }
 
-  .menu {
+  .content {
     display: block;
   }
 
