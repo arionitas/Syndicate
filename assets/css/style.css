@@ -37,7 +37,7 @@ body {
   font-family: "catcheye-webfont";
   color: rgb(255, 255, 255);
   padding: 10%;
-  font-size: 1.5em;
+  font-size: 0.8em;
   font-weight: normal;
   font-style: normal;
   font-synthesis: none;
@@ -48,13 +48,18 @@ body {
   justify-content: center;
 }
 
+.two {
+  text-decoration: line-through;
+}
+
+
  h2 {
   font-family: "catcheye-webfont";
   color: rgb(255, 255, 255);
-  font-size: 1em;
+  font-size: 0.8em;
   font-weight: normal;
   font-style: normal;
-  margin-top: -130px;
+  margin-top: -50px;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -769,10 +774,6 @@ body {
 
 @media screen and (max-width: 430) {
 
-  h1, h2 {
-    display: abs;
-
-  }
   .logo {
     display: flex;
     justify-content: center;
