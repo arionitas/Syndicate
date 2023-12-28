@@ -25,3 +25,13 @@ for (i = 0; i < coll.length; i++) {
   });
 }
 
+$(document).ready(function() {
+  $('.wrapper').fadeIn(500);
+  $('.popup-box').removeClass('transform-out').addClass('transform-in');
+});
+
+$('.popup-close').click(function(e) {
+  $('.wrapper').fadeOut(500);
+  $('.popup-box').removeClass('transform-in').addClass('transform-out');
+  e.preventDefault();
+});
