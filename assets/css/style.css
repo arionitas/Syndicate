@@ -125,8 +125,15 @@ p {
   color: #fff;
 }
 
-.email {
+#name, #email {
   text-align: center;
+}
+
+#submit {
+  border-radius: 10px;
+  margin-top: 20px;
+  padding: 0px 30px 0px 30px;
+  padding: 10px 20px 10px 20px;
 }
 
 
