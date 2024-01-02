@@ -133,18 +133,28 @@ p {
 }
 
 #submit {
-  border-radius: 10px;
   margin-top: 20px;
-  padding: 0px 30px 0px 30px;
-  padding: 10px 20px 10px 20px;
   font-family:Arial, Helvetica, sans-serif;
-  font-weight: 500;
-  background-color: greenyellow;
+  width: 100px;
+  height: 40px;
+  display: inline-block;
+  -webkit-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+  border-radius: 20px;
+  background: rgb(115, 179, 19);
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  line-height: 100%;
 }
+
+
 
 #submit:hover {
   color: black;
   background-color: rgb(10, 192, 0);
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
 }
 
 
@@ -172,12 +182,8 @@ p {
   background-image: url(../images/Snake5.svg);
 
 }
-.popup-box h2 {
-  color: #1a1a1a;
-}
-.popup-box h3 {
-  color: #ff0000;
-}
+
+
 .popup-box .close-button {
   width: 35px;
   height: 35px;
@@ -187,7 +193,7 @@ p {
   right: 10px;
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
-  border-radius: 1000px;
+  border-radius: 20px;
   background: rgb(115, 179, 19);
   font-weight: bold;
   text-decoration: none;
