@@ -139,11 +139,12 @@ p {
   padding: 10px 20px 10px 20px;
   font-family:Arial, Helvetica, sans-serif;
   font-weight: 500;
+  background-color: greenyellow;
 }
 
 #submit:hover {
   color: black;
-  background-color: greenyellow;
+  background-color: rgb(10, 192, 0);
 }
 
 
