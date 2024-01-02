@@ -101,6 +101,7 @@ input {
   position: relative;
   border-radius:10px;
 }
+
 .container {
   width: 800px;
   margin: 10px auto;
@@ -108,9 +109,8 @@ input {
 }
 
 .four{
-  margin-bottom: 20px;
-  font-size: 14px;  color:#fff !important;
-  font-family: "catcheye-webfont";
+  margin-bottom: 30px;
+  font-size: 19px; 
   font-family: "catcheye-webfont";
   font-weight: 900;
 }
@@ -125,8 +125,11 @@ p {
   color: #fff;
 }
 
+
+
 #name, #email, #instagram {
   text-align: center;
+  font-family: "catcheye-webfont";
 }
 
 #submit {
@@ -160,7 +163,7 @@ p {
   box-shadow: 0px 2px 16px greenyellow;
   border-radius: 30px;
   text-align: center;
-  background-image: url(../images/Snake5.png);
+  background-image: url(../images/Snake5.svg);
 
 }
 .popup-box h2 {
