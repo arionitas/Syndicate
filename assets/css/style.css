@@ -74,10 +74,7 @@ body {
 }
 
 
-.collapsible::before {
-  content: '+';
-  color: greenyellow;
-}
+
 
 #subscribe{
   background:#ddd;
@@ -200,6 +197,7 @@ p {
   color: #fff;
   line-height: 190%;
 }
+
 .popup-box .close-button:hover {
   -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
@@ -220,23 +218,28 @@ p {
   -webkit-transform: translate(-50%, -50%) scale(0.5);
   transform: translate(-50%, -50%) scale(0.5);
 }
+
 /* Style the button that is used to open and close the collapsible content */
 
+.collapsible::before {
+  content: '+';
+  color: greenyellow;
+  padding: 335px
+}
+
 .collapsible {
-  display: flex;
   background-color:transparent;
   cursor: pointer;
-  padding: 18px;
   border: none;
   outline: none;
   font-size: 80px;
-  
 }
 
 
 
 
 /* Style the collapsible content. Note: hidden by default */
+
 .content {
   display: none;
   margin: auto;
