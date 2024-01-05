@@ -219,9 +219,14 @@ p {
 
 /* Style the button that is used to open and close the collapsible content */
 
+.collapsible::before {
+  color: greenyellow;
+  
+  
+}
 
 .collapsible {
-  background-color:none;
+  background-color:transparent;
   cursor: pointer;
   border: none;
   outline: none;
@@ -230,14 +235,6 @@ p {
   justify-content: center;
   text-decoration: none;
   color: greenyellow;
-  display: flex;
-  justify-content: center;
-}
-
-.collapsible:hover {
-  -webkit-transform: rotate(46deg);
-  transform: rotate(46deg);
-
 }
 
 /* Style the collapsible content. Note: hidden by default */
@@ -245,7 +242,7 @@ p {
 .content {
   display: none;
   margin: auto;
-  background-color: none;
+  background-color: transparent;
   color: greenyellow;
   font-family: "catcheye-webfont";
   
